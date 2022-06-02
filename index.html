@@ -16,9 +16,51 @@
         </div>
         <main>
             <div class="content">
-                <p>This is my Sign-up Form Project as part of my course syllabus from <a href="theodinproject.com">The Odin Project</a> This is not a real online Service. You need something like this in your real life to help to realize your deepest dreams</p>
+                <p>This is my Sign-up Form Project as part of my course syllabus from <a href="theodinproject.com">The
+                        Odin Project</a> This is not a real online Service. You need something like this in your real
+                    life to help to realize your deepest dreams</p>
                 <p class="line-height">Sign up now to get Started</p>
                 <p class="line-height">You <em>know</em> you want to</p>
+                <form action="#" method="post">
+                    <div class="input-container">
+                        <div class="form">
+                            <h1>Let's do this!</h1>
+                            <div class="inputs">
+                                <div>
+                                    <label for="first-name">First Name</label><br>
+                                    <input type="text" name="first-name" id="first-name" required>
+                                </div>
+                                <div>
+                                    <label for="second-name">Second Name</label><br>
+                                    <input type="text" name="second-name" id="second-name" required>
+                                </div>
+                                <div>
+                                    <label for="mail">Email</label><br>
+                                    <input type="email" name="mail" id="mail" required>
+                                </div>
+                                <div>
+                                    <label for="phone-number">Phone Number</label><br>
+                                    <input type="number" name="phone-number" id="phone-number" minlength="8">
+                                </div>
+                                <div>
+                                    <label for="password">Password</label><br>
+                                    <input type="password" name="password" id="password" required><br>
+                                    <span class="password-match-msg">* Password do not match</span>
+                                </div>
+                                <div>
+                                    <label for="confirm-pass">Confirm Password</label><br>
+                                    <input type="password" name="confirm-pass" id="confirm-pass" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Create Account</button>
+                    </div>
+                    <div>
+                        <p class="small">Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
             </div>
         </main>
     </div>
