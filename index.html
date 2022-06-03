@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form | Project 6 | The Odin Project</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/main.js" defer></script>
 </head>
 
 <body>
@@ -28,28 +29,33 @@
                             <div class="inputs">
                                 <div>
                                     <label for="first-name">First Name</label><br>
-                                    <input type="text" name="first-name" id="first-name" required>
+                                    <input placeholder="First Name" type="text" name="first-name" id="first-name"
+                                        required>
                                 </div>
                                 <div>
                                     <label for="second-name">Second Name</label><br>
-                                    <input type="text" name="second-name" id="second-name" required>
+                                    <input type="text" placeholder="Second Name" name="second-name" id="second-name"
+                                        required>
                                 </div>
                                 <div>
                                     <label for="mail">Email</label><br>
-                                    <input type="email" name="mail" id="mail" required>
+                                    <input type="email" placeholder="abc@abc.com" name="mail" id="mail" required>
                                 </div>
                                 <div>
                                     <label for="phone-number">Phone Number</label><br>
-                                    <input type="number" name="phone-number" id="phone-number" minlength="8">
+                                    <input placeholder="1234567890" type="text" pattern="[0-9.]+" name="phone-number"
+                                        id="phone-number" minlength="8" maxlength="10">
                                 </div>
                                 <div>
                                     <label for="password">Password</label><br>
-                                    <input type="password" name="password" id="password" required><br>
+                                    <input placeholder="Password" type="password" name="password" id="password"
+                                        required><br>
                                     <span class="password-match-msg">* Password do not match</span>
                                 </div>
                                 <div>
                                     <label for="confirm-pass">Confirm Password</label><br>
-                                    <input type="password" name="confirm-pass" id="confirm-pass" required>
+                                    <input type="password" placeholder="Confirm Password" name="confirm-pass"
+                                        id="confirm-pass" required>
                                 </div>
                             </div>
                         </div>
