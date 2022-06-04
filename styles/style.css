@@ -7,6 +7,10 @@
     font-family: new-style;
     src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
 }
+@font-face {
+    font-family: logo-font;
+    src: url(../fonts/Norse-Bold.otf);
+}
 body{
     font-family: new-style;
 }
@@ -17,6 +21,28 @@ p{
 .bg-img img {
     height: 100vh;
     width: auto;
+}
+.bg-img{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    bottom: 50vh;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    display: block;
+    width: 18%;
+    height: auto;
+}
+.logo p{
+    font-family: logo-font;
+    color: #fff;
+    font-size: 75px;
 }
 .container{
     display: flex;
